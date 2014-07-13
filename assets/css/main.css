@@ -354,6 +354,7 @@ ul#pagenav li a.adn {
   height: 34px;
   display: none;
   margin: 0 auto 35px;
+  margin-top: 10px;
   list-style: none;
 }
 
@@ -371,7 +372,7 @@ ul#pagenav li a.adn {
   height: 34px;
   outline: none;
   margin: 0 4px;
-  background: transparent url(../img/social-links.png) no-repeat;
+  background: transparent url(../img/social-links-white.png) no-repeat;
   text-indent: -9000px;
   position: relative;
   border: none;
