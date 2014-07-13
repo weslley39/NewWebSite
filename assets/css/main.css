@@ -245,6 +245,12 @@ sup a[rel="footnote"] {
 	color: #fff;
 }
 
+#profile-image{
+
+}
+
+
+
 .js #masthead {
 	position: fixed;
 	width: 100%;
@@ -265,6 +271,11 @@ sup a[rel="footnote"] {
 
 #masthead img {
 	display: none;
+	width: 103px;
+	height: 103px;
+	background-position: center center;
+	background-size: cover;
+	border-radius: 50%;
 }
 
 #content {
@@ -275,7 +286,7 @@ ul#pagenav {
 	padding: 0 20px;
 }
 
-.js ul#pagenav {
+.js ul#pagenav{
 	display: none;
 	margin-top: 15px;
 }
@@ -341,9 +352,8 @@ ul#pagenav li a.adn {
 .social-links {
   width: 210px;
   height: 34px;
-  display: block;
+  display: none;
   margin: 0 auto 35px;
-  padding: 0;
   list-style: none;
 }
 
@@ -658,9 +668,9 @@ figcaption {
 		background-size: 16px 16px;
 	}
 
-	.social-links {
-
-  }
+	.social-links{
+		display: none;
+  	}
 
 }
 
@@ -729,6 +739,10 @@ figcaption {
 		-webkit-border-radius: 1000px;
 		-moz-border-radius: 1000px;
 		border-radius: 1000px;*/
+	}
+
+	.social-links{
+		display: block;
 	}
 
 	/*#masthead img:hover {
@@ -914,10 +928,10 @@ figcaption {
 	}
 
 	.social-links {
-		position: absolute;
 		top: 25px;
 		right: 20px;
-		margin: 0px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 }
